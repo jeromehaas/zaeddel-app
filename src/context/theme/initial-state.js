@@ -1,7 +1,7 @@
 const initialState = {
 	theme: {
 		style: 'light',
-		showIsDone: false
+		showIsDone: true
 	}
 };
 
