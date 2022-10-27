@@ -1,0 +1,57 @@
+.entry {
+	display: flex;
+	flex-direction: row;
+	max-width: 500px;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 24px;
+
+	&--hidden {
+		display: none;
+	}
+
+	&__checkmark {
+    background-size: contain;
+    background-position: 50%;
+    height: 24px;
+    width: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		margin-right: 24px;
+		border-radius: 50%;
+		appearance: none;
+		font-family: Icon; 
+		position: relative;
+		border: 1px solid black;
+
+		&::after {
+			content: "";
+			position: absolute;
+			border-radius: 50%;
+			width: 0px;
+			height: 0px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: $black;
+			transition: all 0.1s ease;
+		}
+
+		&:checked::after {
+			width: 16px;
+			height: 16px;
+		}
+
+	}
+
+	&__text {
+		line-height: 24px;
+
+		&--checked {
+			text-decoration-line: line-through;
+			text-decoration-thickness: 3px;
+		}
+		
+	}
+
+}

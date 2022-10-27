@@ -1,0 +1,76 @@
+.page {
+	background-color: $white;
+
+	&--dark {
+		background-color: $black;	
+
+		.no-entries {
+			
+			&__wrapper {
+				border: 1px solid $white;
+			}
+
+			&__title {
+				color: $white;
+			}
+
+			&__text {
+				color: $white;
+			}
+			
+		}
+
+		.login-form {
+			background-color: lighten($black, 5%);
+		}
+
+		.options {
+			border-bottom: 1px solid $white;
+
+			&__item {
+				color: $white;
+			}
+
+		}
+
+		.header {
+			border-bottom: 1px solid $white;
+
+			&__logo {
+				color: $white;
+			}
+
+		}
+
+		.list {
+			border-bottom: 1px solid $white;
+		}
+
+		.form {
+
+			&__wrapper {
+				border: 1px solid $white;
+			}
+
+		}
+
+		.entry {
+
+			&__checkmark {
+				border: 1px solid $white;
+
+				&::after {
+					background-color: $white;
+				}
+
+			}
+			
+			&__text {
+				color: $white;
+			}
+
+		}
+
+	}
+
+}

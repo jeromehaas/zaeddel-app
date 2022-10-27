@@ -1,0 +1,29 @@
+/*  CONFIGS  */
+@import 'styles/configs/reset.scss';
+@import 'styles/configs/global.scss';
+@import 'styles/configs/variables.scss';
+@import 'styles/configs/typography.scss';
+@import 'styles/configs/icons.scss';
+
+/*  ATOMS  */
+@import 'components/01-atoms/text/text.scss';
+
+/*  MOLECULES  */
+@import 'components/02-molecules/entry/entry.scss';
+@import 'components/02-molecules/no-entries/no-entries.scss';
+
+/*  SECTIONS  */
+@import 'components/03-organisms/header/header.scss';
+@import 'components/03-organisms/options/options.scss';
+@import 'components/03-organisms/form/form.scss';
+@import 'components/03-organisms/list/list.scss';
+@import 'components/03-organisms/login-form/login-form.scss';
+
+/* LAYOUT  */
+@import 'components/04-layouts/page/page.scss';
+
+/*  PAGES  */
+@import 'components/05-pages/login/login.scss';
+@import 'components/05-pages/dashboard/dashboard.scss';
+
+

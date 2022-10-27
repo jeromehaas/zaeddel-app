@@ -1,0 +1,12 @@
+@import 'styles/configs/variables.scss';
+
+.header {
+	border-bottom: 1px solid $black;
+	padding: 16px 32px;
+
+	&__logo {
+		text-align: center;
+		color: $black;
+	}
+
+}
